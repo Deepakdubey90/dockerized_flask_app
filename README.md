@@ -1,7 +1,5 @@
-![flasks]
-
-flask-bones
-===========
+Large-Scale-Flask APP Boiler-Plate
+==================================
 
 An boiler-plate of a large scale Flask application using blueprints and extensions.
 
@@ -45,7 +43,7 @@ from app.extensions import mail
 from flask_mail import Message
 
 # Build an email
-msg = Message('User Registration', sender='admin@flask-bones.com', recipients=[user.email])
+msg = Message('User Registration', sender='admin@flask-demo.com', recipients=[user.email])
 msg.body = render_template('mail/registration.mail', user=user, token=token)
 
 # Send
