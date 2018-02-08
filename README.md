@@ -1,9 +1,9 @@
-![flasks](https://raw.githubusercontent.com/cburmeister/flask-bones/master/image.jpg)
+![flasks]
 
 flask-bones
 ===========
 
-An example of a large scale Flask application using blueprints and extensions.
+An boiler-plate of a large scale Flask application using blueprints and extensions.
 
 ## Setup
 
